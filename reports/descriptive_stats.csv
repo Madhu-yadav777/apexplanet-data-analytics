@@ -1,0 +1,14 @@
+,unique,top,mean,std,min,q1,median,q3,max
+Customer_ID,2000,CUST_000409,,,,,,,
+Order_Date,678,2024-12-14 00:00:00,,,,,,,
+Age,49.0,,40.55,10.19,18.0,33.0,40.0,48.0,66.0
+Gender,3,Other,,,,,,,
+City,15,San Diego,,,,,,,
+Product_Category,6,Electronics,,,,,,,
+Product,30,Dumbbells,,,,,,,
+Quantity,5.0,,1.94,1.09,1.0,1.0,2.0,3.0,5.0
+Unit_Price,1957.0,,261.95,297.52,5.1,79.32,168.88,295.71,1498.78
+Total_Sales,1972.0,,452.02,637.8,3.87,104.5,224.38,528.52,6009.12
+Discount,7.0,,11.43,10.69,0.0,0.0,10.0,20.0,30.0
+Payment_Method,6,Debit Card,,,,,,,
+Customer_Rating,40.0,,3.4,0.85,1.1,2.8,3.5,4.1,5.0

@@ -1,0 +1,306 @@
+{
+  "overview": {
+    "total_orders": 2001,
+    "total_revenue": 904499.61,
+    "avg_order_value": 452.02
+  },
+  "revenue_by_category": [
+    {
+      "category": "Electronics",
+      "revenue": 436893.98,
+      "orders": 353
+    },
+    {
+      "category": "Home & Kitchen",
+      "revenue": 150865.97,
+      "orders": 324
+    },
+    {
+      "category": "Sports",
+      "revenue": 122094.81,
+      "orders": 351
+    },
+    {
+      "category": "Beauty",
+      "revenue": 83478.44,
+      "orders": 309
+    },
+    {
+      "category": "Apparel",
+      "revenue": 74906.6,
+      "orders": 321
+    },
+    {
+      "category": "Books & Media",
+      "revenue": 36259.81,
+      "orders": 343
+    }
+  ],
+  "top_products": [
+    {
+      "product": "Tablet",
+      "category": "Electronics",
+      "revenue": 110345.7,
+      "orders": 76
+    },
+    {
+      "product": "Laptop",
+      "category": "Electronics",
+      "revenue": 87429.25,
+      "orders": 74
+    },
+    {
+      "product": "Headphones",
+      "category": "Electronics",
+      "revenue": 84834.35,
+      "orders": 70
+    },
+    {
+      "product": "Smart Watch",
+      "category": "Electronics",
+      "revenue": 77807.33,
+      "orders": 64
+    },
+    {
+      "product": "Smartphone",
+      "category": "Electronics",
+      "revenue": 76477.35,
+      "orders": 69
+    }
+  ],
+  "top_cities": [
+    {
+      "city": "Denver",
+      "revenue": 80425.8,
+      "orders": 138
+    },
+    {
+      "city": "Phoenix",
+      "revenue": 70327.66,
+      "orders": 129
+    },
+    {
+      "city": "Philadelphia",
+      "revenue": 69584.99,
+      "orders": 141
+    },
+    {
+      "city": "Miami",
+      "revenue": 69545.37,
+      "orders": 148
+    },
+    {
+      "city": "Seattle",
+      "revenue": 64682.1,
+      "orders": 131
+    }
+  ],
+  "payment_methods": [
+    {
+      "method": "Debit Card",
+      "orders": 352,
+      "revenue": 169391.37
+    },
+    {
+      "method": "Gift Card",
+      "orders": 337,
+      "revenue": 147508.31
+    },
+    {
+      "method": "Cash",
+      "orders": 334,
+      "revenue": 159329.47
+    },
+    {
+      "method": "PayPal",
+      "orders": 328,
+      "revenue": 153835.54
+    },
+    {
+      "method": "Credit Card",
+      "orders": 325,
+      "revenue": 140869.89
+    },
+    {
+      "method": "Bank Transfer",
+      "orders": 325,
+      "revenue": 133565.03
+    }
+  ],
+  "gender": [
+    {
+      "gender": "Other",
+      "orders": 697,
+      "avg_order_value": 452.27
+    },
+    {
+      "gender": "Female",
+      "orders": 654,
+      "avg_order_value": 438.01
+    },
+    {
+      "gender": "Male",
+      "orders": 650,
+      "avg_order_value": 465.86
+    }
+  ],
+  "monthly_trend": [
+    {
+      "month": "2023-01",
+      "revenue": 39521.59,
+      "orders": 81
+    },
+    {
+      "month": "2023-02",
+      "revenue": 30255.14,
+      "orders": 63
+    },
+    {
+      "month": "2023-03",
+      "revenue": 22326.91,
+      "orders": 73
+    },
+    {
+      "month": "2023-04",
+      "revenue": 50451.59,
+      "orders": 92
+    },
+    {
+      "month": "2023-05",
+      "revenue": 42059.58,
+      "orders": 85
+    },
+    {
+      "month": "2023-06",
+      "revenue": 34040.43,
+      "orders": 73
+    },
+    {
+      "month": "2023-07",
+      "revenue": 36913.91,
+      "orders": 79
+    },
+    {
+      "month": "2023-08",
+      "revenue": 32642.2,
+      "orders": 77
+    },
+    {
+      "month": "2023-09",
+      "revenue": 34396.7,
+      "orders": 78
+    },
+    {
+      "month": "2023-10",
+      "revenue": 36138.95,
+      "orders": 88
+    },
+    {
+      "month": "2023-11",
+      "revenue": 32482.31,
+      "orders": 82
+    },
+    {
+      "month": "2023-12",
+      "revenue": 33525.09,
+      "orders": 79
+    },
+    {
+      "month": "2024-01",
+      "revenue": 44096.79,
+      "orders": 90
+    },
+    {
+      "month": "2024-02",
+      "revenue": 35153.98,
+      "orders": 87
+    },
+    {
+      "month": "2024-03",
+      "revenue": 39148.14,
+      "orders": 79
+    },
+    {
+      "month": "2024-04",
+      "revenue": 30051.98,
+      "orders": 88
+    },
+    {
+      "month": "2024-05",
+      "revenue": 33071.3,
+      "orders": 75
+    },
+    {
+      "month": "2024-06",
+      "revenue": 34191.52,
+      "orders": 76
+    },
+    {
+      "month": "2024-07",
+      "revenue": 39094.07,
+      "orders": 80
+    },
+    {
+      "month": "2024-08",
+      "revenue": 31845.07,
+      "orders": 74
+    },
+    {
+      "month": "2024-09",
+      "revenue": 45816.36,
+      "orders": 100
+    },
+    {
+      "month": "2024-10",
+      "revenue": 50442.94,
+      "orders": 95
+    },
+    {
+      "month": "2024-11",
+      "revenue": 30085.58,
+      "orders": 77
+    },
+    {
+      "month": "2024-12",
+      "revenue": 66747.48,
+      "orders": 130
+    }
+  ],
+  "rating_by_category": [
+    {
+      "category": "Books & Media",
+      "avg_rating": 3.43,
+      "orders": 343
+    },
+    {
+      "category": "Sports",
+      "avg_rating": 3.43,
+      "orders": 351
+    },
+    {
+      "category": "Electronics",
+      "avg_rating": 3.41,
+      "orders": 353
+    },
+    {
+      "category": "Beauty",
+      "avg_rating": 3.39,
+      "orders": 309
+    },
+    {
+      "category": "Home & Kitchen",
+      "avg_rating": 3.38,
+      "orders": 324
+    },
+    {
+      "category": "Apparel",
+      "avg_rating": 3.35,
+      "orders": 321
+    }
+  ],
+  "quantity_sales": {
+    "avg_qty": 1.94,
+    "avg_sales": 452.02,
+    "n": 2001
+  }
+}

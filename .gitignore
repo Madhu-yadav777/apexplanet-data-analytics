@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.ipynb
+*.ipynb
+!notebooks/*.ipynb
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data (keep raw and processed but ignore large temp files)
+data/tmp/
+*.tmp
+
+# Database (we keep the SQLite db as part of deliverables, but ignore WAL/SHM temp files)
+*.db-wal
+*.db-shm
+
+# Backup and scratch files (not part of the deliverable)
+scripts/eda.py.backup
+scripts/test.txt

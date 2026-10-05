@@ -1,0 +1,258 @@
+{
+  "kpis": {
+    "total_revenue": 904499.61,
+    "total_orders": 2001,
+    "total_quantity": 3886,
+    "average_order_value": 452.02,
+    "average_customer_rating": 3.4,
+    "average_discount_pct": 11.43,
+    "number_of_customers": 2000,
+    "number_of_products": 30,
+    "top_category": {
+      "name": "Electronics",
+      "revenue": 436893.98
+    },
+    "top_product": {
+      "name": "Tablet",
+      "category": "Electronics",
+      "revenue": 110345.7
+    },
+    "top_city": {
+      "name": "Denver",
+      "revenue": 80425.8
+    },
+    "top_payment": {
+      "name": "Debit Card",
+      "orders": 352
+    },
+    "date_range": [
+      "2023-01-01",
+      "2024-12-31"
+    ],
+    "rows": 2001,
+    "columns": 13
+  },
+  "insights": [
+    "Total revenue across the period (2023-01-01 to 2024-12-31) is $904,499.61 from 2,001 orders by 2,000 unique customers.",
+    "Average order value is $452.02 and 3,886 units were sold in total.",
+    "'Electronics' is the highest-grossing category at $436,893.98 (48.3% of total revenue).",
+    "'Books & Media' is the lowest-grossing category at $36,259.81, a candidate for promotion, bundling or portfolio review.",
+    "'Tablet' is the single best-selling product with $110,345.70 in revenue.",
+    "'Denver' leads all regions in sales with $80,425.80 (8.9% of total revenue).",
+    "'Debit Card' is the most used payment method with 352 (17.6%) of all orders.",
+    "Sales grew by 12.9% from 2023 to 2024 ($424,754 to $479,745), indicating a positive momentum.",
+    "'December 2024' was the peak sales month, consistent with a post-holiday/promotional surge.",
+    "Quantity and total sales show a strong positive correlation (r = 0.40); buying more units drives more revenue.",
+    "'Books & Media' earns the highest average customer rating (3.43/5), suggesting strong product-market fit in that segment.",
+    "The average customer rating is 3.40/5 across 2,001 orders.",
+    "A discount of 11.4% (average) has a positive relationship with customer rating (r = 0.01); deeper discounts do not reliably improve satisfaction.",
+    "Customers aged 25-44 make up 61.3% of orders (average age 40.5), pointing to a strong young-adult core demographic.",
+    "Customer 'CUST_000304' is the top spender with $6,009.12, a prime candidate for loyalty / retention programs."
+  ],
+  "correlation": {
+    "Age": {
+      "Age": 1.0,
+      "Quantity": 0.003,
+      "Unit_Price": 0.051,
+      "Total_Sales": 0.033,
+      "Discount": -0.01,
+      "Customer_Rating": 0.007
+    },
+    "Quantity": {
+      "Age": 0.003,
+      "Quantity": 1.0,
+      "Unit_Price": 0.001,
+      "Total_Sales": 0.402,
+      "Discount": 0.0,
+      "Customer_Rating": -0.01
+    },
+    "Unit_Price": {
+      "Age": 0.051,
+      "Quantity": 0.001,
+      "Unit_Price": 1.0,
+      "Total_Sales": 0.79,
+      "Discount": -0.006,
+      "Customer_Rating": 0.002
+    },
+    "Total_Sales": {
+      "Age": 0.033,
+      "Quantity": 0.402,
+      "Unit_Price": 0.79,
+      "Total_Sales": 1.0,
+      "Discount": -0.097,
+      "Customer_Rating": -0.01
+    },
+    "Discount": {
+      "Age": -0.01,
+      "Quantity": 0.0,
+      "Unit_Price": -0.006,
+      "Total_Sales": -0.097,
+      "Discount": 1.0,
+      "Customer_Rating": 0.009
+    },
+    "Customer_Rating": {
+      "Age": 0.007,
+      "Quantity": -0.01,
+      "Unit_Price": 0.002,
+      "Total_Sales": -0.01,
+      "Discount": 0.009,
+      "Customer_Rating": 1.0
+    }
+  },
+  "outliers": {
+    "Age": {
+      "q1": 33.0,
+      "q3": 48.0,
+      "iqr": 15.0,
+      "lower_bound": 10.5,
+      "upper_bound": 70.5,
+      "outliers": 0
+    },
+    "Quantity": {
+      "q1": 1.0,
+      "q3": 3.0,
+      "iqr": 2.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outliers": 0
+    },
+    "Unit_Price": {
+      "q1": 79.32,
+      "q3": 295.71,
+      "iqr": 216.39,
+      "lower_bound": -245.26,
+      "upper_bound": 620.29,
+      "outliers": 203
+    },
+    "Total_Sales": {
+      "q1": 104.5,
+      "q3": 528.52,
+      "iqr": 424.02,
+      "lower_bound": -531.53,
+      "upper_bound": 1164.55,
+      "outliers": 175
+    },
+    "Discount": {
+      "q1": 0.0,
+      "q3": 20.0,
+      "iqr": 20.0,
+      "lower_bound": -30.0,
+      "upper_bound": 50.0,
+      "outliers": 0
+    },
+    "Customer_Rating": {
+      "q1": 2.8,
+      "q3": 4.1,
+      "iqr": 1.3,
+      "lower_bound": 0.85,
+      "upper_bound": 6.05,
+      "outliers": 0
+    }
+  },
+  "stats": {
+    "Customer_ID": {
+      "unique": 2000,
+      "top": "CUST_000409"
+    },
+    "Order_Date": {
+      "unique": 678,
+      "top": "2024-12-14 00:00:00"
+    },
+    "Age": {
+      "mean": 40.55,
+      "std": 10.19,
+      "min": 18.0,
+      "q1": 33.0,
+      "median": 40.0,
+      "q3": 48.0,
+      "max": 66.0,
+      "unique": 49
+    },
+    "Gender": {
+      "unique": 3,
+      "top": "Other"
+    },
+    "City": {
+      "unique": 15,
+      "top": "San Diego"
+    },
+    "Product_Category": {
+      "unique": 6,
+      "top": "Electronics"
+    },
+    "Product": {
+      "unique": 30,
+      "top": "Dumbbells"
+    },
+    "Quantity": {
+      "mean": 1.94,
+      "std": 1.09,
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 2.0,
+      "q3": 3.0,
+      "max": 5.0,
+      "unique": 5
+    },
+    "Unit_Price": {
+      "mean": 261.95,
+      "std": 297.52,
+      "min": 5.1,
+      "q1": 79.32,
+      "median": 168.88,
+      "q3": 295.71,
+      "max": 1498.78,
+      "unique": 1957
+    },
+    "Total_Sales": {
+      "mean": 452.02,
+      "std": 637.8,
+      "min": 3.87,
+      "q1": 104.5,
+      "median": 224.38,
+      "q3": 528.52,
+      "max": 6009.12,
+      "unique": 1972
+    },
+    "Discount": {
+      "mean": 11.43,
+      "std": 10.69,
+      "min": 0.0,
+      "q1": 0.0,
+      "median": 10.0,
+      "q3": 20.0,
+      "max": 30.0,
+      "unique": 7
+    },
+    "Payment_Method": {
+      "unique": 6,
+      "top": "Debit Card"
+    },
+    "Customer_Rating": {
+      "mean": 3.4,
+      "std": 0.85,
+      "min": 1.1,
+      "q1": 2.8,
+      "median": 3.5,
+      "q3": 4.1,
+      "max": 5.0,
+      "unique": 40
+    }
+  },
+  "viz_files": [
+    "missing_values.png",
+    "distributions.png",
+    "correlation_heatmap.png",
+    "categorical_analysis.png",
+    "numerical_analysis.png",
+    "summary_dashboard.png",
+    "sales_by_category.png",
+    "gender_analysis.png",
+    "age_distribution.png",
+    "payment_method_analysis.png",
+    "city_analysis.png",
+    "product_performance.png",
+    "time_series_sales.png",
+    "scatter_relationships.png"
+  ]
+}
